@@ -146,7 +146,7 @@ var panSubscription = reactNativeTvosController.subscribe('PAN',
       console.log("panned");
       console.log(JSON.stringify(e));
       /*
-      e.state : "Changed"
+      e.state : "Changed" || "Ended"
       e.x : (x offset)
       e.y : (y offset)
       */
